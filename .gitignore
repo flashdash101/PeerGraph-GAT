@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Training/build artifacts (reproducible from notebook)
+sp500_*
+nvda_top_5_competitors.csv
+
+# Optional scratch notebook
+test.ipynb
+
+# Model export byproducts
+*.pt
+*.onnx
+
+# If you want to keep these later, remove the lines above and commit them explicitly.
